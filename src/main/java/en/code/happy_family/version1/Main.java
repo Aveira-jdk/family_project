@@ -3,7 +3,7 @@ package en.code.happy_family.version1;
 public class Main {
     public static void main(String[] args) {
         String[] habits = {"eat", "drink", "sleep"};
-        Pet cat = new Pet("Cat", "Samsung", 5, 30, habits);
+        Pet cat = new Pet("Cat", "Xiaomi", 5, 30, habits);
 
         String[][] schedule = {
                 {"Monday", "VideoGames"},
@@ -11,9 +11,9 @@ public class Main {
                 {"Wednesday", "WaterPolo"},
         };
 
-        Human mother = new Human("Mai", "Sakurajima", 2002, 130, schedule);
-        Human father = new Human("Sakuta", "Azusagawa", 2000, 110, schedule);
-        Human child = new Human("Shoko", "Makinohara", 2010, father, mother, cat, 100);
+        Human mother = new Human("Samsung", "Galaxy", 1969, 130, schedule);
+        Human father = new Human("Apple", "Iphone", 1976, 110, schedule);
+        Human child = new Human("Google", "Pixel", 1998, father, mother, cat, 100);
 
         cat.eat();
         cat.respond();
